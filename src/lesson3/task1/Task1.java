@@ -47,7 +47,7 @@ public class Task1 {
         printSortedDescMassive();
     }
     public static void makeMassiveUsingKeybord(){
-        System.out.print("Enter massive size: -> ");
+        System.out.print("Enter massive size: → ");
         arraySize = scanner.nextInt();
     }
     public static void printMassive(){
