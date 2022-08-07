@@ -31,7 +31,7 @@ public class Task2 {
 
         for(int i = 0; i < arrayLetters.length; i++){
             if (arrayLetters[i] != 0) {
-                System.out.println((char) (i + 'a') + " = " + arrayLetters[i]);
+                System.out.println((char) (i + 'a') + " → " + arrayLetters[i]);
             }
         }
     }
