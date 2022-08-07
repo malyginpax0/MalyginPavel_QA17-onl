@@ -21,13 +21,13 @@ public class Task1 {
         personAge = in.nextInt();
 
         if ((personAge >= 7) & (personAge <= 13))  {
-            System.out.println("Your training group will be... Number 1");
+            System.out.println("1");
         } else  if ((personAge >= 14) & (personAge <= 17)) {
-            System.out.println("Your training group will be... Number 2");
+            System.out.println("2");
         } else  if ((personAge >= 18) & (personAge <= 65)) {
-            System.out.println("Your training group will be... Number 3");
+            System.out.println("3");
         } else {
-            System.out.println("Sorry, -1");
+            System.out.println("-1");
         }
     }
 
